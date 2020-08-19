@@ -6,9 +6,11 @@ public class ToRoman {
 
     }
     public static String toRoman(int number){
-        String s = "t";
-        return s;
+        if(number == 1) {
+            return "I";
+        }
 
+        return "Error";
     }
 
 }
